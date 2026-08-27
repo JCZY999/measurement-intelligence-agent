@@ -1,0 +1,13 @@
+.search{width:min(420px,42%)}
+.header-connectors{display:flex;align-items:center;gap:5px;padding-left:11px;border-left:1px solid #1c292f}
+.header-connectors button{width:30px;height:30px;padding:0;border:1px solid #223038;border-radius:8px;background:#0c1318;display:grid;place-items:center;position:relative;transition:border-color .18s,background .18s,transform .18s}
+.header-connectors button:hover{border-color:#3b5a55;background:#111d1b;transform:translateY(-1px)}
+.header-connectors button>span{width:18px;height:18px;border-radius:5px;display:grid;place-items:center;color:white;font:800 8px var(--display)}
+.header-connectors .google{background:linear-gradient(135deg,#4285f4 0 48%,#fbbc05 48% 72%,#34a853 72%)}
+.header-connectors .facebook{background:#1877f2;font-family:Arial;font-size:13px}
+.header-connectors .linkedin{background:#0a66c2;font-size:7px}
+.header-connectors .salesforce{background:#00a1e0;font-size:6px;border-radius:50%}
+.header-connectors i{position:absolute;right:2px;bottom:2px;width:5px;height:5px;border:1px solid #0c1318;border-radius:50%;background:var(--green)}
+@media(max-width:900px){.header-connectors{gap:3px;padding-left:7px}.header-connectors button{width:27px;height:27px}}
+@media(max-width:760px){.header-connectors{display:none}.search{width:100%}}
+
